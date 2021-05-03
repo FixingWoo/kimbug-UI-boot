@@ -1,0 +1,4 @@
+stylelint 설정
+
+1. npm install -D stylelint stylelint-config-recess-order stylelint-config-standard stylelint-scss
+2. .sytlelintrc.json 파일 추가

@@ -1,0 +1,31 @@
+%rating-base {
+  @include flexbox(start);
+
+  .ic-star {
+    color: $border;
+
+    &.is-active {
+      color: $blue;
+    }
+  }
+}
+
+.ratings--13 {
+  @extend %rating-base;
+  font-size: 13px;
+}
+
+.ratings--16 {
+  @extend %rating-base;
+  font-size: 16px;
+}
+
+.ratings--20 {
+  @extend %rating-base;
+  font-size: 20px;
+}
+
+.ratings--24 {
+  @extend %rating-base;
+  font-size: 24px;
+}

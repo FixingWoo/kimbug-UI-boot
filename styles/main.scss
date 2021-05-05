@@ -5,9 +5,20 @@
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
+@import './base/globals';
 
 @import './mixins/text-style';
 @import './mixins/responsive';
 @import './mixins/positions';
+@import './mixins/flexbox';
+
+@import './modules/tags';
+@import './modules/avatars';
+@import './modules/ratings';
+@import './modules/prices';
+@import './modules/buttons';
+@import './modules/forms';
+@import './modules/icons';
+@import './modules/pagination';
 
 @import './layouts/grids';
